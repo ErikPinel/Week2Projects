@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="MobileNav"><ul class="NavList2">
+            <div><li id="test"   style="margin-left:12vw;"> <a class="NavLink1" href="#AboutmeTitle">About</a> </li>
+            <li ><a class="NavLink2" href="#ServiceTitle">Services</a></li>
+            <li ><a class="NavLink3" href="#ContactTitle"> Lets start</a></li>
+        </ul></div>
+    <div id="NavContainer">
+      <h1 id="NavTitle"> Erik Project</h1> 
+        <ul class="NavList">
+            <li  style="margin-left:12vw;"> <a class="NavLink4" href="#AboutmeTitle">About</a> </li>
+            <li  ><a class="NavLink5" href="#ServiceTitle">Services</a></li>
+            <li ><a class="NavLink6" href="#ContactTitle">lets start</a></li>
+        </ul>
+        <div  id= " "class="menu-btn-3" onclick="menuBtnFunction(this)">
+            <span></span>
+        </div>
+    </div>
+
+<div id="HomeContainer">
+
+    <div id="HomeLeftContent">
+        <div id="HomeImg"> <img src="https://cdn.pixabay.com/photo/2017/01/29/13/21/mobile-devices-2017982__480.png "; id="HomeImgB"></div>
+         <div id="HomeTextArea"><h1 id="HomeTitle">
+            Hire me
+            To bring your ideas to life.</h1> <p id="HomeP">Full stack web developer</p>
+            <div id="HomePortfolio"><a id="portfolio" href="https://github.com/ErikPinel">Portfolio</a></div>
+        </div>
+            
+
+       
+    </div>
+</div>
+
+
+
+
+
+
+<div id="AboutContainer">
+    
+    <div id="ContentDiv"><h1 id="AboutmeTitle">About me</h1>  <p  id ="pAbout"style="margin-left:4vw ;">check my git</p>  <div id="gitDiv"><a style="padding: 2vw;" href="https://github.com/ErikPinel">gitHub</a></div> </div>
+    <div id="AboutImgContainer">
+        <div id="imgholderAbout">
+        <div id="sideimg"></div>
+        <img src="https://elearningindustry.com/wp-content/uploads/2021/02/learning-and-development-strategies.png" id="AboutImgContainer">
+    </div>
+    </div>
+
+   
+</div>
+
+
+
+
+<div id="ServicesContainer">
+
+<div id="ServiceTextSection"><h1   id ="ServiceTitle" style="margin-right: 40vw ; font-size: 7vw;"> Services</h1></div>
+
+
+<div id="img-container">
+
+
+    <div class="flip-card">
+        <div class="flip-card-inner">
+          <div  id="flip1" class="flip-card-front">
+            <h1 style="z-index:900 ; position: absolute; color: black; font-weight: bolder;" > web desgin</h1>
+        
+          </div>
+          <div class="flip-card-back">
+            
+            <i class="fa-solid fa-palette"></i>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nobis delenit
+                i perferendis inventore exercitationem nemo doloribus repellendus
+                 </p> 
+            
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            
+            <h1 style="z-index:900 ; position: absolute; color: black; font-weight: bolder;" >front/end dev</h1> 
+          </div>
+          <div class="flip-card-back">
+            <h1 style="z-index:900 ;">front/end dev</h1> 
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nobis delenit
+               </p> 
+            
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <h1 style="z-index:900 ; position: absolute; color: black; font-weight: bolder;" > Branding</h1>
+            
+          </div>
+          <div  id="flip3" class="flip-card-back">
+            
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nobis delenit
+                i perferendis inventore exercitationem nemo doloribus repellendus
+               </p> 
+            
+          </div>
+        </div>
+      </div>
+
+
+</div>
+
+</div>
+
+<div style="width:100vw ; height: 20vh ; background-color:grey ; display: flex; justify-content: center; align-items: center;"><pre style="align-items: center; color: white;"> Hire me to build your dream website</pre></div>
+
+<div id="contactme" style="width:100vw ; height: 40vh ; background-color:black ; color: white;"><h1 id="ContactTitle">contact me</h1> <pre>Email: erik.zusin@gmail.com
+    Mobile: 0503939008  </pre> </div>
+
+
+
+
+
+
+<script>
+var clicked=1;
+function menuBtnFunction(menuBtn) {
+    menuBtn.classList.toggle("active");
+    clicked++;
+    if(clicked%2 == 0)
+    {
+    document.getElementById("MobileNav").style.height = "30vh";
+    // document.getElementById("HomeImg").style.top= document.getElementById("HomeImg").style.top.valueOf+"30vh";
+    }
+else document.getElementById("MobileNav").style.height = "0vh";
+
+
+}
+</script>
+</body>
+
+</html>
