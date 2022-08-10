@@ -366,6 +366,14 @@ display: none;
 
 }
 
+#gitHubA{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
 #HomePortfolio
 {
  width: 50%;
@@ -383,6 +391,7 @@ padding: 2vw;
   padding-right:5.5vw;
    margin-top: 4vw;
   display: flex;
+  align-items: center;
 
 
 
@@ -532,6 +541,7 @@ margin-right: 8vw;
             display: flex;
             align-items: center;
             justify-content: center;
+            padding-right: 2vw;
         }
     
         
@@ -581,19 +591,24 @@ margin-right: 8vw;
            transform: translateX(3vw);
            margin-bottom: 5vw;
         }
+      
+          
+              }
+          
 
-    }
+              #gitDiv{
+                height: 5vw;
+                width: 10vw;
+                background-color: gray;
+                padding: 2vw;
+                padding-right: 5vw;
+                margin-left: 4vw;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              }
 
-    #gitDiv{
-height: 5vw;
-width: 10vw;
-background-color: gray;
-padding: 2vw;
-padding-right: 5vw;
-margin-left: 4vw;
-
-    }
-
+  
 /* Services */
 
 #ServicesContainer{
