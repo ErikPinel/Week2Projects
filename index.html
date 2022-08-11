@@ -10,6 +10,8 @@
 </head>
 
 <body>
+
+  <!-- mobile nav -->
   <div id="MobileNav">
     <ul class="NavList2">
       <div>
@@ -17,6 +19,8 @@
         <li><a class="NavLink2" href="#ServiceTitle">Services</a></li>
         <li><a class="NavLink3" href="#ContactTitle"> Lets start</a></li>
     </ul>
+
+    <!-- web nav -->
   </div>
   <div id="NavContainer">
     <h1 id="NavTitle"> Erik Project</h1>
@@ -30,6 +34,7 @@
     </div>
   </div>
 
+<!-- home page -->
   <div id="HomeContainer">
 
     <div id="HomeLeftContent">
@@ -42,9 +47,6 @@
         <p id="HomeP">Full stack web developer</p>
         <div id="HomePortfolio"><a id="portfolio" href="https://github.com/ErikPinel">Portfolio</a></div>
       </div>
-
-
-
     </div>
   </div>
 
@@ -52,7 +54,7 @@
 
 
 
-
+<!-- about page -->
   <div id="AboutContainer">
 
     <div id="ContentDiv">
@@ -67,23 +69,18 @@
           id="AboutImgContainer">
       </div>
     </div>
-
-
   </div>
 
 
 
 
+  <!-- services page -->
   <div id="ServicesContainer">
 
     <div id="ServiceTextSection">
       <h1 id="ServiceTitle" style="margin-right: 40vw ; font-size: 7vw;"> Services</h1>
     </div>
-
-
     <div id="img-container">
-
-
       <div class="flip-card">
         <div class="flip-card-inner">
           <div id="flip1" class="flip-card-front">
@@ -100,9 +97,7 @@
           </div>
         </div>
       </div>
-
-
-
+      <!-- services flip cards -->
       <div class="flip-card">
         <div class="flip-card-inner">
           <div class="flip-card-front">
@@ -134,12 +129,10 @@
           </div>
         </div>
       </div>
-
-
     </div>
-
   </div>
 
+  <!-- contact section -->
   <div
     style="width:100vw ; height: 20vh ; background-color:grey ; display: flex; justify-content: center; align-items: center;">
     <pre style="align-items: center; color: white;"> Hire me to build your dream website</pre>
@@ -157,6 +150,7 @@
 
 
   <script>
+    // mobile nav bar - open/close 
     var clicked = 1;
     function menuBtnFunction(menuBtn) {
       menuBtn.classList.toggle("active");
