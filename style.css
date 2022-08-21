@@ -288,6 +288,25 @@ a {
 
 
 /* mobile home page */
+@media screen and (min-width: 1200px) {
+#HomeTextArea {
+
+  margin-top: 10vh;
+  transform: translateY(-5vh);
+}
+#HomeImg {
+
+
+  
+  transform: translateY(-5vh);
+
+
+
+}
+  }
+
+
+
 @media screen and (max-width: 600px) {
   #HomeImg {
 
